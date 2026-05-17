@@ -43,6 +43,7 @@ main {
 h1 {
     color:var(--color-primario);
     margin-bottom:20px;
+    text-align: center;
 }
 h2 {
     color:var(--color-primario);
@@ -92,11 +93,19 @@ footer {
 footer p {
     color:#777;
     font-size:12px;
-    font-stlye:italic
+    font-style:italic;
 }
 footer small {
-        color:#00;
-  font-stlye:italic;
+        color:#0000;
+  font-style:italic;
     font-size:12px;
   font-weight:500;
+}
+img{
+    width:250px;
+    height:180px;
+
+    object-fit:cover;
+
+    border-radius:12px;
 }
