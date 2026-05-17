@@ -39,6 +39,9 @@ nav a:hover {
 }
 main {
     padding:40px 20px;
+    max-width: 1200px;
+    margin: auto;
+
 }
 h1 {
     color:var(--color-primario);
@@ -108,4 +111,11 @@ img{
     object-fit:cover;
 
     border-radius:12px;
+}
+.programa {
+    transition: 0.3s;
+}
+
+.programa:hover {
+    transform: translateY(-5px);
 }
