@@ -46,7 +46,6 @@ h3 {
     color:var(--color-primario);
     margin-bottom:10px;
 }
-
 form {
     background-color:#fff;
     padding:20px;
@@ -86,5 +85,12 @@ footer {
 }
 footer p {
     color:#777;
-    font-size:14px;
+    font-size:12px;
+    font-stlye:italic
+}
+footer small {
+        color:#00;
+  font-stlye:italic;
+    font-size:12px;
+  font-weight:500;
 }
