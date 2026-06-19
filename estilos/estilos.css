@@ -12,12 +12,14 @@
     padding:0;
     
 }
-
+ /*Seccion de header, nav, links y menu*/
 header {
     background-color:var(--color-terciario);
     display:flex;
     justify-content:center;
     padding:20px;
+    position: sticky;
+    top: 0;
 }
 
 nav ul {
@@ -25,17 +27,23 @@ nav ul {
     display:flex;
     flex-direction:row;
     align-items:center;
+    gap: 30px;
 }
 nav a {
     color:var(--fondo);
     text-decoration:none;
-    margin:0 15px;
     font-weight:500;
 }
 nav a:hover {
     color:var(--color-secundario);
 }
 
+.logo{
+  height: 50px;
+  weidht: 10px;
+  position: left;
+}
+ /* Cuerpo, h1-h6, tablas, formas y botones */
 body {
     background-color:var(--fondo);
     font-family:var(--fuente);
@@ -92,6 +100,7 @@ button {
 button:hover {
     background-color:var(--color-secundario);
 }
+/* Pie del css, imagenes y programas */
 footer {
     background-color:var(--fondo);
     text-align:center;
@@ -122,3 +131,5 @@ img{
 .programa:hover {
     transform: translateY(-5px);
 }
+
+
