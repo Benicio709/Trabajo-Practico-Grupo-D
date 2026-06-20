@@ -38,8 +38,8 @@ nav a:hover {
     color:var(--color-secundario);
 }
 .logo{
-  height: 50px;
-  width: auto;
+    max-width: 100%;
+    max-height:auto;
 }
  /* Cuerpo, h1-h6, tablas, formas y botones */
 body {
@@ -117,8 +117,8 @@ footer small {
   font-weight:500;
 }
 img{
-    width:initial;
-    height:initial;
+    max-width: 100%;
+    max-height:auto;
     object-fit:cover;
     border-radius:12px;
 }
