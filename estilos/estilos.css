@@ -37,10 +37,9 @@ nav a {
 nav a:hover {
     color:var(--color-secundario);
 }
-
 .logo{
   height: 50px;
-  width: 10px;
+  width: auto;
 }
  /* Cuerpo, h1-h6, tablas, formas y botones */
 body {
