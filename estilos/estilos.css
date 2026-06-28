@@ -36,7 +36,7 @@ header {
 }
 
 .Logo a {
-    color: var(--blanco) ;
+    color: var(--fondo) ;
     font-family: var(--fuente);
     font-size: 1.25rem;
     font-weight: 700;
@@ -47,6 +47,18 @@ header {
 
 .Logo a:hover {
     color: var(--color-primario) ;
+    justify-content:center;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    list-style:none;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    gap: 30px;
+
 }
 nav a {
     color:var(--fondo);
@@ -57,6 +69,10 @@ nav a {
 nav a:hover {
     color:var(--color-secundario);
     background-color:var(--color-primario);
+}
+.logo{
+    max-width: 100%;
+    max-height:auto;
 }
 
 body {
@@ -115,6 +131,7 @@ button {
 button:hover {
     background-color:var(--color-secundario);
 }
+
 footer {
     background-color:var(--fondo);
     text-align:center;
@@ -133,8 +150,8 @@ footer small {
   font-weight:500;
 }
 img{
-    width:initial;
-    height:initial;
+    max-width: 100%;
+    max-height:auto;
     object-fit:cover;
     border-radius:12px;
 }
@@ -145,3 +162,5 @@ img{
 .programa:hover {
     transform: translateY(-5px);
 }
+
+
