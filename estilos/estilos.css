@@ -1,7 +1,7 @@
 :root {
     --color-primario: #109cc7;
     --color-secundario: #11afdf;
-    --color-terciario: #12a0aa;
+    --color-terciario: #168cfa;
     --fondo: #f0f0f0;
     --fuente: "Akt", sans-serif;
 }
@@ -16,6 +16,7 @@
 header {
     position:sticky;
     top:0;
+    z-index: 1050;
     left:0;
     background-color:var(--color-terciario);
     display:flex;
@@ -70,16 +71,22 @@ nav a:hover {
     color:var(--color-secundario);
     background-color:var(--color-primario);
 }
-.logo{
-    max-width: 100%;
-    max-height:auto;
-}
 
 body {
     background-color:var(--fondo);
     font-family:var(--fuente);
     line-height:1.5;
 }
+/* Estilos para el contenedor de tarjetas */
+.contenedor-tarjetas {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+
 
 main {
     padding:40px 20px;
