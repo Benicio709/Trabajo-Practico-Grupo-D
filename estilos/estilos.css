@@ -77,6 +77,29 @@ body {
     font-family:var(--fuente);
     line-height:1.5;
 }
+
+/* Estilo del boton y modo oscuro*/
+
+body.oscuro{background-color: #121212;
+color: #ffffff;
+transition: background 0.3s ease;
+}
+
+body.oscuro footer {
+  background-color:var(--color-primario) !important;
+}
+
+body.oscuro footer * {
+  color: #ffffff !important;
+  background-color: transparent !important; 
+}
+
+/* le aplica la transición a todos los elementos de la página */
+* {
+  transition:background 0.3s ease,
+  color 0.4s ease;
+}
+
 /* Estilos para el contenedor de tarjetas */
 .contenedor-tarjetas {
     display:flex;
