@@ -2,5 +2,11 @@
 const boton = document.getElementById("boton-modo-oscuro");
 
 boton.addEventListener("click", () => {
-  document.body.classList.toggle("oscuro");
-} );
+  const esOscuro = document.body.classList.toggle("oscuro");
+
+  if (esOscuro) {
+    boton.innerText = ". Modo claro";
+  } else {
+    boton.innerText = ". Modo oscuro";
+  }
+});
