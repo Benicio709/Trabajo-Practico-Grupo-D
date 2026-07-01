@@ -5,8 +5,8 @@ boton.addEventListener("click", () => {
   const esOscuro = document.body.classList.toggle("oscuro");
 
   if (esOscuro) {
-    boton.innerText = ". Modo claro";
+    boton.innerText = ". Modo claro☀️";
   } else {
-    boton.innerText = ". Modo oscuro";
+    boton.innerText = ". Modo oscuro🌙";
   }
 });
