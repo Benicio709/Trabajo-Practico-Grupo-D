@@ -1,1 +1,6 @@
+// Modo Oscuro
+const boton = document.getElementById("boton-modo-oscuro");
 
+boton.addEventListener("click", () => {
+  document.body.classList.toggle("oscuro");
+} );
