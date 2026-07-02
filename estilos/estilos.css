@@ -222,7 +222,12 @@ img{
     max-width: 800px;
     color: white;
 }
-
+.texto-debajo {
+    max-width: 850px;
+    margin: 60px auto;
+    padding: 20px;
+    text-align: center;
+}
 .programa {
     transition: 0.3s;
 }
