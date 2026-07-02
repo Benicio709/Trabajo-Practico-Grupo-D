@@ -52,6 +52,12 @@ header {
     position: sticky;
     top: 0;
 }
+/* Cambia el fondo del formulario y el color de los textos internos */
+body.oscuro form {
+    background-color: #1e1e1e; /* Un gris oscuro para que resalte del fondo */
+    color: #ffffff;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+}
 
 nav ul {
     list-style:none;
@@ -77,6 +83,29 @@ body {
     font-family:var(--fuente);
     line-height:1.5;
 }
+
+/* Estilo del boton y modo oscuro*/
+
+body.oscuro{background-color: #121212;
+color: #ffffff;
+transition: background 0.3s ease;
+}
+
+body.oscuro footer {
+  background-color:var(--color-primario) !important;
+}
+
+body.oscuro footer * {
+  color: #ffffff !important;
+  background-color: transparent !important; 
+}
+
+/* le aplica la transición a todos los elementos de la página */
+* {
+  transition:background 0.3s ease,
+  color 0.4s ease;
+}
+
 /* Estilos para el contenedor de tarjetas */
 .contenedor-tarjetas {
     display:flex;
@@ -162,6 +191,27 @@ img{
     object-fit:cover;
     border-radius:12px;
 }
+/* Imagen de fondo en Inicio */
+.Fondo-inicio{
+    background-image: url("../img/ComedorComunitario.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 85vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+/* Contenido Inicio */
+.Contenido-inicio{
+    max-width: 800px;
+    color: white;
+}
+
 .programa {
     transition: 0.3s;
 }
