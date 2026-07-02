@@ -187,7 +187,7 @@ img{
 }
 /* Imagen de fondo en Inicio */
 .Fondo-inicio{
-    background-image: "img/ComedorComunitario.jpg";
+    background-image: url("../img/ComedorComunitario.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
