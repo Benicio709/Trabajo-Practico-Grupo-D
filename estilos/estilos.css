@@ -185,6 +185,27 @@ img{
     object-fit:cover;
     border-radius:12px;
 }
+/* Imagen de fondo en Inicio */
+.Fondo-inicio{
+    background-image: "img/ComedorComunitario.jpg";
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 85vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+/* Contenido Inicio */
+.Contenido-inicio{
+    max-width: 800px;
+    color: white;
+}
+
 .programa {
     transition: 0.3s;
 }
