@@ -193,6 +193,7 @@ img{
 }
 /* Imagen de fondo en Inicio */
 .Fondo-inicio{
+    position: relative;
     background-image: url("../img/ComedorComunitario.jpg");
     background-size: cover;
     background-position: center;
@@ -206,8 +207,18 @@ img{
 
     text-align: center;
 }
+
+.Fondo-inicio::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    z-index: 1;
+}
 /* Contenido Inicio */
 .Contenido-inicio{
+     position: relative;
+    z-index: 2;
     max-width: 800px;
     color: white;
 }
