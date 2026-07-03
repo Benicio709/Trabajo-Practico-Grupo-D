@@ -116,7 +116,59 @@ body.oscuro footer * {
     margin: 40px 0;
 }
 
+/* Estilos para los links de contacto*/
+.redes {
+  display:flex;
+  flex-direction: row;
+  gap: 25px;
+  flex-wrap:wrap;
+}
 
+.ig {
+  width: fit-content;
+  display:flex;
+  flex-direction:column;
+  border-style:solid;
+  border-color:pink;
+  border-radius:12px;
+  padding:5px;
+  align-items:center;
+}
+
+.tw {
+  width: fit-content;
+  display:flex;
+  flex-direction:column;
+  border-style:solid;
+  border-color:black;
+  border-radius:12px;
+  padding:5px;
+  align-items:center;
+}
+
+.yt {
+  width: fit-content;
+  display:flex;
+  flex-direction:column;
+  border-style:solid;
+  border-color:red;
+  border-radius:12px;
+  padding:5px;
+  align-items:center;
+}
+
+.fb{
+  width: fit-content;
+  display:flex;
+  flex-direction:column;
+  border-style:solid;
+  border-color:blue;
+  border-radius:12px;
+  padding:5px;
+  align-items:center;
+}
+
+/* Main, label, button y footer */
 main {
     padding:40px 20px;
     max-width: 1200px;
